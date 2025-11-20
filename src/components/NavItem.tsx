@@ -12,7 +12,7 @@ export const NavItem = ({path, name, color}:NavListProps) => {
  const navigate = useNavigate()
  
   return (
-    <li className="list-none p-2 ">
+    <li className="list-none p-2 md:mt-2.5 ">
         <div className="flex flex-row justify-between items-center px-2">
           <button onClick={() => navigate(path)} className="bg-trasparent uppercase 
           flex flex-row items-center gap-2.5 cursor-pointer">
