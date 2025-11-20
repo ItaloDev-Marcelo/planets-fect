@@ -1,8 +1,11 @@
-
+import Nav from "../Nav/Nav"
 
 const UranusloadingPage = () => {
   return (
-    <div>Uranus.loadingPage</div>
+    <div>
+        <Nav/>
+        <h1>Uranus.loadingPage</h1>
+      </div>
   )
 }
 

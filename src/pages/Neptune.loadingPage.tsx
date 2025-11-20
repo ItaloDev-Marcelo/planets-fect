@@ -1,8 +1,11 @@
-
+import Nav from "../Nav/Nav"
 
 const NeptuneloadingPage = () => {
   return (
-    <div>Neptune.loadingPage</div>
+    <div>
+      <Nav/>
+     <h1> Neptune.loadingPage</h1>
+      </div>
   )
 }
 

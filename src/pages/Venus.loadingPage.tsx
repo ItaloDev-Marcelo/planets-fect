@@ -1,7 +1,10 @@
-
+import Nav from "../Nav/Nav"
 const VenusloadingPage = () => {
   return (
-    <div>Venus.loadingPage</div>
+    <div>
+      <Nav/>
+      <h1>Venus.loadingPage</h1>
+      </div>
   )
 }
 

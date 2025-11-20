@@ -1,8 +1,11 @@
-
+import Nav from "../Nav/Nav"
 
 const EarthloadingPage = () => {
   return (
-    <div>Earth.loadingPage</div>
+    <div>
+      <Nav/>
+      <h1>Earth.loadingPage</h1>
+      </div>
   )
 }
 

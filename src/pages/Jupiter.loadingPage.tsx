@@ -1,8 +1,11 @@
-
+import Nav from "../Nav/Nav"
 
 const JupiterloadingPage = () => {
   return (
-    <div>Jupiter.loadingPage</div>
+    <div>
+      <Nav/>
+      <h1>Jupiter.loadingPage</h1>
+      </div>
   )
 }
 
