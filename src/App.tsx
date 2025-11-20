@@ -1,9 +1,8 @@
 
 import RouteApp from './routes/RouteApp'
-
 function App() {
   return (
-    <RouteApp/>
+      <RouteApp/>
   )
 }
 
