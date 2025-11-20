@@ -15,7 +15,7 @@ const Nav = () => {
           <button className='md:hidden' onClick={() => setNavBar(!navBar)}><img src={Hamburger}/></button>
        </div>
       
-        <ul className={` ${navBar ? 'flex-col md:flex' : 'hidden md:flex' } md:flex-row xl:mr-4 md:flex-wrap md:justify-center md:gap-2.5 space-y-4`}>
+        <ul className={` ${navBar ? 'flex-col md:flex' : 'hidden md:flex' } bg-red-400 md:flex-row xl:mr-4 md:flex-wrap md:justify-center md:gap-2.5 space-y-4`}>
           {
              NavList.map(({path,name, color}, index) => (
                 <NavItem key={index} path={path} name={name} color={color} />
