@@ -6,6 +6,10 @@ body {
     background: #070724 url('./assets/background-stars.svg') no-repeat center center fixed;
 }
 
+h1{
+    color:#fff;
+}
+
 
 @theme {
 --color-white: #FFFFFF;
