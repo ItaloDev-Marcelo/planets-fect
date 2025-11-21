@@ -1,10 +1,11 @@
 import Nav from "../Nav/Nav"
-
+import CommunLayout from "../components/Layout/CommunLayout"
+import Data from '../data.json'
 const NeptuneloadingPage = () => {
   return (
     <div>
       <Nav/>
-     <h1> Neptune.loadingPage</h1>
+      <CommunLayout data={Data[7]} />
       </div>
   )
 }

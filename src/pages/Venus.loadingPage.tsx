@@ -1,9 +1,11 @@
 import Nav from "../Nav/Nav"
+import CommunLayout from "../components/Layout/CommunLayout"
+import Data from '../data.json'
 const VenusloadingPage = () => {
   return (
     <div>
       <Nav/>
-      <h1>Venus.loadingPage</h1>
+      <CommunLayout data={Data[1]} />
       </div>
   )
 }

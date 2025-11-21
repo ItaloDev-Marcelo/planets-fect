@@ -1,10 +1,11 @@
 import Nav from "../Nav/Nav"
-
+import CommunLayout from "../components/Layout/CommunLayout"
+import Data from '../data.json'
 const UranusloadingPage = () => {
   return (
     <div>
         <Nav/>
-        <h1>Uranus.loadingPage</h1>
+        <CommunLayout data={Data[6]} />
       </div>
   )
 }
