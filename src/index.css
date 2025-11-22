@@ -1,13 +1,41 @@
 @import "tailwindcss";
 
+
+
+@font-face {
+  font-family: 'LeagueSpartan';
+  src: url('./assets/fonts/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Antonio';
+  src: url('./assets/fonts/Antonio-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+
+
 body {
     width: 100%;
     height: 100%;
     background: #070724 url('./assets/background-stars.svg') no-repeat center center fixed;
 }
 
+p{
+    font-family: 'LeagueSpartan', sans-serif;
+    font-weight: 400;
+}
+
 h1{
     color:#fff;
+}
+
+nav, button, h2, h3 {
+    font-family: 'Antonio', sans-serif;
 }
 
 
