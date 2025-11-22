@@ -7,7 +7,7 @@ const NavegationTab = ({handleTabClick,selectTab,color}:NavegationTabProps) => {
                 <ButtonBar handleTabClick={handleTabClick} selectTab={selectTab} color={color} valor='overview' title='overview' />
                 <div className='mx-9'><ButtonBar handleTabClick={handleTabClick} selectTab={selectTab} color={color} valor='structure' title='structure' /></div>
                 <ButtonBar handleTabClick={handleTabClick} selectTab={selectTab} color={color} valor='geology' title='surface' />
-       <div className={`absolute top-13 ${selectTab === 'overview' && 'left-8 w-20'}  ${selectTab === 'structure' && 'left-39 w-19'} ${selectTab === 'geology' && 'left-73 w-15'}    h-1 bg-${color}`}></div>
+       <div className={`absolute top-13 ${selectTab === 'overview' && 'left-7 w-20'}  ${selectTab === 'structure' && 'left-37 w-19'} ${selectTab === 'geology' && 'left-70 w-15'}    h-1 bg-${color}`}></div>
       </div>
   )
 }
