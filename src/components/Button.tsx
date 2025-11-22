@@ -5,12 +5,15 @@ export type buttonProps = {
     name?: string;
     color?:string;
     valor: Tabs;
-    selectTab?: string
+    title?: string;
+    selectTab: Tabs
 }
-const Button = ({handleTabClick,color,valor,selectTab}:buttonProps) => {
+
+
+const Button = ({handleTabClick,color,valor,title,selectTab}:buttonProps) => {
   return (
-       <button className={` ${selectTab ?  color : 'bg-trasparent'}
-        border border-gray p-2.5 w-35 mx-1 text-[0.7em] `} onClick={() => handleTabClick(valor)}>{selectTab}</button>
+       <button className={` ${valor == selectTab ?  `${color} text-gray-200`: 'bg-trasparent '}
+        border border-gray p-2.5 w-35 mx-1 text-[1em] xl:w-full xl:my-3 xl:text-left font-semibold cursor-pointer `} onClick={() => handleTabClick(valor)}>{title}</button>
   )
 }
 
