@@ -1,4 +1,4 @@
-import type { Tabs } from "../components/Layout/CommunLayout";
+import type { Tabs } from "./tabs.type";
 
 export type DataType = {
     name: string;

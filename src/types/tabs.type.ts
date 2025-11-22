@@ -1,0 +1,1 @@
+export type Tabs = "overview" | "structure" | "geology" ;

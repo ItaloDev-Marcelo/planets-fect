@@ -1,0 +1,1 @@
+export type ImageContentProps = {url: string, style: string}

@@ -1,0 +1,1 @@
+export type FigureContainerProps = {children: React.ReactNode, style?: string}
