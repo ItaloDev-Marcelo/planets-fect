@@ -1,16 +1,11 @@
 import { useNavigate } from "react-router-dom"
 import {DotColor} from '../components/DotColor'
 import Arrow from '../assets/icon-chevron.svg'
-type NavListProps = {
-    path: string, 
-    name: string,
-    color: string
-}
+import type { NavListProps } from "../types/nav.list"
 
 export const NavItem = ({path, name, color}:NavListProps) => {
-
  const navigate = useNavigate()
- 
+
   return (
     <li className="list-none p-2 md:mt-2.5" onClick={() => navigate(path)} >
         <div className="flex flex-row justify-between items-center px-2">

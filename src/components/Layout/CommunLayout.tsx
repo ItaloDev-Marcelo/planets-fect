@@ -5,7 +5,8 @@ import InformationBlock from '../InformationBlock'
 import ImgSelect from '../../utils/ImgSelect';
 import ButtonSelectV2 from '../../utils/ButtonSelectV2';
 import Nav from '../../Nav/Nav'
-export type Tabs = "overview" | "structure" | "geology" ;
+import type { Tabs } from '../../types/tabs.type';
+
 const CommunLayout = ({data}:CommunLayoutProps) => {
   const [selectTab, setSelectTab] = useState<Tabs>("overview")
   const handleTabClick = (tab:Tabs) => setSelectTab(tab)

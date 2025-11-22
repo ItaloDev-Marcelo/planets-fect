@@ -1,13 +1,6 @@
 
-import type { Tabs } from '../components/Layout/CommunLayout'
-import NavegationTab from '../navegationTab'
-
-
-type ButtonSelectProps = {
-  name: string,
-  handleTabClick: (tab:Tabs) => void,
-  selectTab: Tabs
-}
+import NavegationTab from '../components/navegationTab'
+import type { ButtonSelectProps } from '../types/button.select'
 
 const ButtonSelect = ({name,handleTabClick,selectTab}:ButtonSelectProps) => {
    switch(name) {

@@ -1,15 +1,4 @@
-import type { Tabs } from "./Layout/CommunLayout";
-
-export type buttonProps = {
-    handleTabClick: (tab:Tabs) => void;
-    name?: string;
-    color?:string;
-    valor: Tabs;
-    title?: string;
-    selectTab: Tabs
-}
-
-
+import type { buttonProps } from "../types/buttons.type"
 const Button = ({handleTabClick,color,valor,title,selectTab}:buttonProps) => {
   return (
        <button className={` ${valor == selectTab ?  `${color} text-gray-200`: 'bg-trasparent '}

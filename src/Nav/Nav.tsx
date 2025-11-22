@@ -1,14 +1,9 @@
 import { NavItem } from '../components/NavItem'
 import {NavList} from '../Nav/data/NavList'
 import Hamburger from '../assets/icon-hamburger.svg'  
-
-export type NavProps = {
-  navBar: boolean ,
-  handleNavBar: () => void
-}
+import type { NavProps } from '../types/nav.type'
 
 const Nav = ({navBar, handleNavBar}:NavProps ) => {
-
   return (
     <nav className='flex flex-col px-2 w-full xl:flex-row md:justify-center
      border-b md:gap-5 border-gray-50 md:items-center xl:justify-between text-white xl:h-25 xl:py-10 ' >
