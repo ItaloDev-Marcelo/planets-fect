@@ -1,4 +1,4 @@
-import { NavItem } from '../components/NavItem'
+import { NavItem } from '../components/Nav/NavItem'
 import {NavList} from '../Nav/data/NavList'
 import Hamburger from '../assets/icon-hamburger.svg'  
 import type { NavProps } from '../types/nav.type'
