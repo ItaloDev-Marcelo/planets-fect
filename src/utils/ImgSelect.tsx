@@ -1,5 +1,5 @@
 import ImageContent from "../components/ImageContainers/ImageContent"
-import FigureContainer from "../components/FigureContainer"
+import FigureContainer from "../components/ImageContainers/FigureContainer"
 import type { InforBlockProps } from "../types/data.type"
 const ImgSelect = ({selectTab, data}:InforBlockProps) => {
    switch(selectTab) {
