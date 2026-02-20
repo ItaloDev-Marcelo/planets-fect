@@ -1,4 +1,4 @@
-import ImageContent from "../components/ImageContent"
+import ImageContent from "../components/ImageContainers/ImageContent"
 import FigureContainer from "../components/FigureContainer"
 import type { InforBlockProps } from "../types/data.type"
 const ImgSelect = ({selectTab, data}:InforBlockProps) => {
