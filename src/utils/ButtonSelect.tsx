@@ -1,5 +1,5 @@
 
-import Button from '../components/Button'
+import Button from '../components/Buttons/Button'
 import type { buttonProps } from '../types/buttons.type'
 const ButtonSelect = ({name,valor,handleTabClick,title,selectTab}:buttonProps) => {
    switch(name) {

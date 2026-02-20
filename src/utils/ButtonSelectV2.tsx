@@ -1,5 +1,5 @@
 
-import NavegationTab from '../components/navegationTab'
+import NavegationTab from '../components/Nav/navegationTab'
 import type { ButtonSelectProps } from '../types/button.select'
 
 const ButtonSelect = ({name,handleTabClick,selectTab}:ButtonSelectProps) => {
