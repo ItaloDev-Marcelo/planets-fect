@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import {DotColor} from '../dot/DotColor'
-import Arrow from '../assets/icon-chevron.svg'
+import Arrow from '../../assets/icon-chevron.svg'
 import type { NavListProps } from "../../types/nav.list"
 
 export const NavItem = ({path, name, color}:NavListProps) => {

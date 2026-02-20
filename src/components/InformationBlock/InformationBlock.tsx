@@ -1,5 +1,5 @@
 
-import source from '../assets/icon-source.svg'
+import source from '../../assets/icon-source.svg'
 import type { InforBlockProps } from '../../types/data.type'
 const InformationBlock = ({selectTab, data}:InforBlockProps) => {
   return (
