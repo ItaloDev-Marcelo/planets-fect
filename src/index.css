@@ -52,4 +52,5 @@ nav, button, h2, h3 {
 --color-red-fire: #D83A34;
 --color-green: #1EC2A4;
 --color-azure: #2D68F0; 
+ --breakpoint-xs-2: 25.875rem;
 }
