@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import type { CommunLayoutProps } from '../../types/data.type'
 import ButtonSelect from '../../utils/ButtonSelect'
-import InformationBlock from '../InformationBlock'
+import InformationBlock from '../InformationBlock/InformationBlock'
 import ImgSelect from '../../utils/ImgSelect';
 import ButtonSelectV2 from '../../utils/ButtonSelectV2';
 import Nav from '../../Nav/Nav'
@@ -24,7 +24,7 @@ const CommunLayout = ({data}:CommunLayoutProps) => {
            <section className='w-100 md:w-125 lg:w-100 xl:w-150 text-center lg:text-left px-7 '>
                 <h1 className='font-bold text-[1.5em] uppercase my-5 text-2xl xl:text-[3.5rem]'>{data.name}</h1>
                 <InformationBlock selectTab={selectTab} data={data} />
-               <div className='hidden mt-4 md:flex  pt-2.5  md:w-120 xl:flex-col xl:w-[100%] '>
+               <div className='hidden mt-4 md:flex  pt-2.5  md:w-120 xl:flex-col xl:w-full '>
                   <ButtonSelect name={data.name} valor="overview" handleTabClick={handleTabClick}  selectTab={selectTab} title='01 Overview' />
                   <ButtonSelect name={data.name} valor="structure" handleTabClick={handleTabClick} selectTab={selectTab} title='02 Internal Structure' />
                   <ButtonSelect name={data.name} valor="geology" handleTabClick={handleTabClick}  selectTab={selectTab} title='03 Surface Geology' />
