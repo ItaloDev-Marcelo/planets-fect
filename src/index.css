@@ -21,6 +21,7 @@
 
 body {
     width: 100%;
+    overflow-x:hidden;
     height: 100%;
     background: #070724 url('./assets/background-stars.svg') no-repeat center center fixed;
 }
