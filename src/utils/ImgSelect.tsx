@@ -4,7 +4,7 @@ import type { InforBlockProps } from "../types/data.type"
 const ImgSelect = ({selectTab, data}:InforBlockProps) => {
    switch(selectTab) {
       case  "overview":
-        return <FigureContainer><ImageContent style='min-w-40 md:max-w-75'  url={data.images.planet}/></FigureContainer>
+        return <FigureContainer><ImageContent style='min-w-40 md:max-w-75 '  url={data.images.planet}/></FigureContainer>
       break  
       case  "structure":
         return <FigureContainer><ImageContent style='min-w-40 md:max-w-75' url={data.images.internal}/></FigureContainer>
