@@ -9,7 +9,6 @@ const NavegationTab = ({handleTabClick,selectTab,color}:NavegationTabProps) => {
                   <ButtonBar handleTabClick={handleTabClick} selectTab={selectTab} color={color} valor='structure' title='structure' />
                 </div>
                 <ButtonBar handleTabClick={handleTabClick} selectTab={selectTab} color={color} valor='geology' title='surface' />
-
        <div className={`absolute top-13 ${selectTab === 'overview' && 'left-10 w-20 xs-2:w-15 xs-2:left-17'} 
         ${selectTab === 'structure' && 'left-37 w-19 xs-2:w-15 xs-2:left-42.5   '} 
         ${selectTab === 'geology' && 'left-63 xs-2:left-69 w-15'}    h-1 bg-${color}`}>
