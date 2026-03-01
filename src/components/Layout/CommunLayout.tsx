@@ -5,6 +5,7 @@ import InformationBlock from '../InformationBlock/InformationBlock'
 import ImgSelect from '../../utils/ImgSelect';
 import ButtonSelectV2 from '../../utils/ButtonSelectV2';
 import Nav from '../../Nav/Nav'
+import Block from './utils/Block'
 import type { Tabs } from '../../types/tabs.type';
 
 const CommunLayout = ({data}:CommunLayoutProps) => {
@@ -32,26 +33,10 @@ const CommunLayout = ({data}:CommunLayoutProps) => {
            </section>
        </div>
        <div className='flex flex-col   md:flex-row justify-center items-center gap-5 mt-15 p-5'>
-         <article className='w-full flex  flex-row md:w-40 xl:w-60  h-25 p-4 border border-gray-400 rounded-[7px] 
-          gap-2.5 items-center justify-between md:flex-col xl:flex-row'>
-           <div><h2 className='uppercase text-[.9em] xl:text-[1em]  font-semibold  '>Rotation time</h2></div>
-           <div><h3 className='text-[1.1em] font-bold'>{data.rotation}</h3></div>
-         </article>
-         <article className='w-full flex flex-row md:w-40  xl:w-60 h-25  p-4  border
-          border-gray-400 rounded-[7px] gap-2.5 items-center justify-between md:flex-col xl:flex-row'>
-            <div><h2 className='uppercase text-[.9em] xl:text-[1em]  font-semibold '>Revolution time</h2></div>
-           <div> <h3 className='text-[1.1em] font-bold'>{data.revolution}</h3></div>
-         </article>
-         <article className='w-full flex flex-row md:w-40 xl:w-60 
-          h-25  p-4  border border-gray-400 rounded-[7px] gap-2.5 items-center justify-between md:flex-col xl:flex-row'>
-            <h2 className='uppercase text-[.9em] xl:text-[1em]  font-semibold '>Radius</h2>
-             <h3 className='text-[1.1em] font-bold'>{data.radius}</h3>
-         </article>
-         <article className='w-full flex flex-row md:w-40 xl:w-60  h-25  p-4  
-         border border-gray-400 rounded-[7px] gap-2.5 items-center justify-between md:flex-col xl:flex-row'>
-            <div> <h2 className='uppercase text-[.9em] xl:text-[1em]  font-semibold '>Average temp.</h2></div>
-             <div> <h3 className='text-[1.1em] font-bold'>{data.temperature}</h3></div>
-         </article>
+        <Block title='Rotation time' content={data.rotation} />
+        <Block title='Revolution time' content={data.revolution} />
+        <Block title='Radius' content={data.radius} />
+        <Block title='Average temp.' content={data.temperature} />
        </div>
     </main>
       </div>
