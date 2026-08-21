@@ -1,1 +1,1 @@
-export type ImageContentProps = {url: string, style: string}
+export type ImageContentProps = {url: string,name?: string, style: string}
