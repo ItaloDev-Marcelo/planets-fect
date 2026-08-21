@@ -1,0 +1,9 @@
+import type { buttonProps } from "../../shared/types/buttons.type"
+
+const ButtonBar = ({handleTabClick,selectTab,color, title, valor}:buttonProps) => {
+  return (
+    <button  onClick={() => handleTabClick(valor)} className={`mx-2.5  tracking-wider uppercase font-semibold text-[0.8rem] ${selectTab === valor && `text-${color}`}`}>{title}</button>
+  )
+}
+
+export default ButtonBar
