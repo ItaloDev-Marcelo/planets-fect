@@ -1,7 +1,7 @@
 import type { Tabs } from "./tabs.type"
 
 export type ButtonSelectProps = {
-  name: string,
+  name: string ,
   handleTabClick: (tab:Tabs) => void,
   selectTab: Tabs
 }
