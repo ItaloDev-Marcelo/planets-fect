@@ -9,11 +9,12 @@ import Button from '../Btns/Button';
 import NavegationTab from '../Nav/navegationTab';
 import type { btnTp } from '../../shared/types/btn.type';
 import type { BlockProps } from '../../shared/types/block.type';
+import { useNav } from '../../store/useNav';
 
 const CommunLayout = ({data}:CommunLayoutProps) => {
   const [selectTab, setSelectTab] = useState<Tabs>("overview")
   const handleTabClick = (tab:Tabs) => setSelectTab(tab)
-
+  const nav = useNav((state) => state.nav)
   const btnSelectDt:btnTp[] = [
                      {
                       valor: 'overview',
@@ -51,7 +52,7 @@ const CommunLayout = ({data}:CommunLayoutProps) => {
 
 
   return (
-    <div>
+    <div className={!nav ? 'flex flex-col xl:block' : 'hidden xl:block'}>
       <div className='py-2'>
           <div className='text-white flex flex-col items-center justify-center md:hidden  border-b-2 border-gray-300  w-full h-20'>
 
