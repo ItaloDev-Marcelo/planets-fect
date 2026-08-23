@@ -56,14 +56,3 @@ nav, button, h2, h3 {
 --color-azure: #2D68F0; 
  --breakpoint-xs-2: 25.875rem;
 }
-
-@media (min-width: 80rem) {
-    #Mercury, #Mars {
-    transform: scale(128%);
-}
-
-#Jupiter {
-    transform: scale(78%);
-}
-
-}
