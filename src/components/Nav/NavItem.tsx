@@ -4,7 +4,6 @@ import type { NavListProps } from "../../shared/types/nav.list"
 import { Link } from "@tanstack/react-router"
 
 export const NavItem = ({path, name, color, handleNavBar}:NavListProps) => {
-  
 
 
   return (
