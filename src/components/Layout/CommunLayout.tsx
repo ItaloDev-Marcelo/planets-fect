@@ -6,7 +6,7 @@ import Block from './Block'
 import type { Tabs } from '../../shared/types/tabs.type';
 import { colors } from '../../shared/constants/Colors';
 import Button from '../Btns/Button';
-import NavegationTab from '../Nav/NavegationTab';
+import NavegationTab from '../Nav/navegationTab';
 import type { btnTp } from '../../shared/types/btn.type';
 import type { BlockProps } from '../../shared/types/block.type';
 
