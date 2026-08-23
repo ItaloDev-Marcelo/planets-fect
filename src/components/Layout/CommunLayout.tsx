@@ -63,7 +63,7 @@ const CommunLayout = ({data}:CommunLayoutProps) => {
             
        <main className='text-white flex flex-col items-center justify-center'>
        <div className=' flex flex-col xl:flex-row   mt-0 md:my-10 lg:my-0 xl:pt-7 px-50 xl:px-5 xl:gap-30 items-center justify-between '>
-          <div className='my-10   xl:my-0  '> 
+          <div className='my-10 xl:my-0'> 
             <ImgSelect selectTab={selectTab} data={data} />
           </div>
            <section className=' text-center lg:text-left justify-around'>
