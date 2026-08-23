@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 
-
 @font-face {
   font-family: 'LeagueSpartan';
   src: url('./assets/fonts/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
@@ -17,13 +16,9 @@
   font-style: normal;
 }
 
-
-
-
 body {
-    width: 100%;
     overflow-x:hidden;
-    height: 100%;
+    height: 100dvh;
     background: #070724 url('./assets/background-stars.svg') no-repeat center center fixed;
 }
 
