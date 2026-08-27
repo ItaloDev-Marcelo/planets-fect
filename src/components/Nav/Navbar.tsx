@@ -15,7 +15,7 @@ const Navbar = () => {
           <button className='md:hidden' onClick={handleNavBar}><img src={Hamburger}/></button>
        </div>
       
-        <ul className={` ${nav ? 'flex-col md:flex' : 'hidden md:flex ' }
+        <ul className={` ${!nav ? 'flex-col md:flex' : 'hidden md:flex ' }
        md:flex-row xl:mr-4 md:flex-wrap px-1 lg:px-0 md:justify-center md:gap-2.5 space-y-4 pt-5 fixed top-25  md:top-[-25px] xl:top-[-5px] xl:w-auto xl:h-auto
         left-0 w-full h-full md:relative
          bg-deep-space-blue z-100 h-max-full `}>

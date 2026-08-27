@@ -16,7 +16,7 @@
   font-style: normal;
 }
 
-body {
+html,body {
     overflow-x:hidden;
     height: 100dvh;
     background: #070724 url('./assets/background-stars.svg') no-repeat center center fixed;

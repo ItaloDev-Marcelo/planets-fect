@@ -52,7 +52,7 @@ const CommunLayout = ({data}:CommunLayoutProps) => {
 
 
   return (
-    <div className={!nav ? 'flex flex-col xl:block' : 'hidden xl:block'}>
+    <div className={nav ? 'flex flex-col xl:block' : 'hidden xl:block'}>
       <div className='py-2'>
           <div className='text-white flex flex-col items-center justify-center md:hidden  border-b-2 border-gray-300  w-full h-20'>
 
